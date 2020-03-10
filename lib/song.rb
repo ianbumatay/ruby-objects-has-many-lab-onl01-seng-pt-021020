@@ -16,8 +16,14 @@ class Song
   end
 
   def artist_name
-    @@all.any? {|e| e.name == name}
+      if @@all.name == " " 
+        nil
+      else
+        name
+    end
   end
+
+
 
 
 
