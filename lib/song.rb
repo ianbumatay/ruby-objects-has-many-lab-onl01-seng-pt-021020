@@ -16,16 +16,10 @@ class Song
   end
 
   def artist_name
-      if @@all.name == " " 
+      if self.all.name == " "
         nil
       else
         name
-    end
+      end
   end
-
-
-
-
-
-
 end
